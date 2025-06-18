@@ -1,0 +1,85 @@
+/* Overall background & base text settings */
+body {
+  background-color: #121212; /* Dark background */
+  font-family: 'Varela Round', sans-serif;
+  color: #ffffff;
+  padding: 20px;
+  line-height: 1.8;
+  text-align: center;
+  font-size: 1.2rem; /* Larger font */
+  font-weight: 500;  /* Bolder font */
+}
+
+/* Section container */
+.section {
+  background: #1f1f1f; /* Dark card background */
+  margin: 30px auto;
+  padding: 30px;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.05);
+}
+
+/* Header Section */
+.header {
+  background: #2c2c2c;
+  border-left: 6px solid #ff69b4; /* pink accent */
+}
+
+.header h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #ff69b4;
+}
+
+/* Timeline section */
+.timeline ol {
+  padding-left: 0;
+  list-style-position: inside;
+  display: inline-block;
+  text-align: left;
+}
+
+.timeline li {
+  margin-bottom: 15px;
+}
+
+/* Photo Section */
+.photo {
+  margin-top: 30px;
+}
+.custom-img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Video Section */
+.video iframe {
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  max-width: 100%;
+}
+
+/* Footer */
+.footer {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  color: #ffb6c1;
+}
+
+/* Links */
+a {
+  color: #ff69b4;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #ffc0cb;
+}
